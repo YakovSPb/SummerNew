@@ -25,6 +25,14 @@
 			<div class="container">
 				<div class="header_inner">
 					<a href="/" class="logo"><img src="img/logo.png" alt="alt"></a>
+					<div class="mobile_info">
+						<div class="mobile_info__geo"><img src="img/geo_white.svg" alt="alt"></div>
+						<div class="mobile_info__phone"><a href="tel:+77777777777"><img src="img/phone.svg" alt="alt"></a></div>
+						<div class="mobile_info__burger mobile_info__burger--active">
+							<img class="mobile_info__open" src="img/burger.svg" alt="alt">
+							<img class="mobile_info__close" src="img/close.svg" alt="alt">
+						</div>
+					</div>
 					<nav class="menu header__menu">
 						<ul class="menu__list">
 							<li class="menu-item"><a href="/news" >Услуги</a></li>
@@ -40,6 +48,16 @@
 						</form>
 					</div>
 				</div>
+				<div class="header_loc">
+					<ul class="header_loc__list">
+						<li class="header_loc__item--close"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="14.142" y="15.5566" width="20" height="2" transform="rotate(-135 14.142 15.5566)" fill="#4D63AA"/><rect x="-0.00012207" y="14.1426" width="20" height="2" transform="rotate(-45 -0.00012207 14.1426)" fill="#4D63AA"/></svg></li>
+						<li class="header_loc__item"><a class="header_loc__link" href="#">Москва</a></li>
+						<li class="header_loc__item"><a class="header_loc__link" href="#">Московская область</a></li>
+						<li class="header_loc__item"><a class="header_loc__link" href="#">Санкт-Петербург</a></li>
+						<li class="header_loc__item"><a class="header_loc__link" href="#">Ленинградская область</a></li>
+						<li class="header_loc__item"><a class="header_loc__link" href="#">Регионы РФ</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 		<div class="header_contacts">
@@ -47,11 +65,11 @@
 				<div class="header_wrapper">
 					<div class="location">
 						<span class="location__link">
-							<img src="img/location.svg" alt="alt"><a class="navbar-link primer-header-region" data-toggle="popover" data-placement="bottom" data-title="Ваш регион Москва?" onclick="modalRegionSelectionShow()" data-original-title="" title="">Санкт-Петербург</a></span>
+							<img src="img/location.svg" alt="alt"><a class="navbar-link primer-header-region" data-toggle="popover" data-placement="bottom" data-title="Ваш регион Москва?">Санкт-Петербург</a></span>
 						</div>
 						<div class="phone header__phone">
-							<a href="#" class="pone_item">8 812 646 80 80</a>
-							<a href="#" class="pone_item">8 800 333 38 28</a>
+							<a href="#" class="phone_item">8 812 646 80 80</a>
+							<a href="#" class="phone_item">8 800 333 38 28</a>
 						</div>
 						<div class="email header__email">
 							<a href="mailto:info@6468080.ru" class="">info@6468080.ru</a>
@@ -60,7 +78,37 @@
 					</div>
 				</div>
 			</div>
+
+
 		</header>
+
+		<nav class="menu mobile_menu">
+			<ul class="menu__list">
+				<li class="menu-item"><a href="/news" >Услуги</a></li>
+				<li class="menu-item"><a href="/media">Портфолио</a></li>
+				<li class="menu-item"><a href="/media">О нас</a></li>
+				<li class="menu-item"><a href="/media">Контакты</a></li>
+			</ul>
+			<div class="mobile_inner">
+				<div class="moble_contact">
+					<div class="phone">
+						<a href="#" class="phone_item">8 812 646 80 80</a>
+					</div>	
+					<div class="email">
+							<a href="mailto:info@6468080.ru" class="">info@6468080.ru</a>
+						</div>		
+				</div>
+				<div class="mobile_btn">
+					<a data-fancybox="" data-src="#modal_form" class="btn" href="javascript:;">Бесплатная консультация</a>
+				</div>
+			</div>
+			<div class="search mobile_menu__search">
+						<form class="search_form" id="searchform2" method="get">
+							<input class="search_form__input" name="s" placeholder="Поиск" type="search">
+							<div class="search_form__btn"><img src="img/search.svg" alt="alt"></div>
+						</form>
+			</div>
+		</nav>
 
 		<div class="wrapper">
 			<div class="main">
@@ -452,7 +500,7 @@
 								<div class="partner_item"><a href="#"><img src="img/parnter_logo_10.png" alt="alt"></a></div>
 								<div class="partner_item"><a href="#"><img src="img/parnter_logo_11.png" alt="alt"></a></div>
 								<div class="partner_item"><a href="#"><img src="img/parnter_logo_12.png" alt="alt"></a></div>
-								<a href="#" class="partners_logo__link">Развернуть список</a>
+								<a data-fancybox data-src="#modal_logos" href="javascript:;" class="partners_logo__link">Развернуть список</a>
 							</div>
 							<div class="pratners_text">
 								<div class="pratners_text__title"><h2 class="h2">Партнеры</h2></div>
@@ -602,9 +650,40 @@
 				</form>			
 			</div>
 
+			<div id="modal_logos">
+				<div class="modal_logos_wrap">
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_01.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_02.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_03.jpg" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_04.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_05.jpg" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_06.jpg" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_07.jpg" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_08.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_09.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_10.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_11.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_12.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_01.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_02.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_03.jpg" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_04.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_05.jpg" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_06.jpg" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_07.jpg" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_08.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_09.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_10.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_11.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_12.png" alt="alt"></a></div>
+				</div>		
+			</div>
+
 		</div>
 
 
+
+		<div id="topNubex"><img src="img/arrow-up.svg" /></div>
 
 		<link rel="stylesheet" href="css/jquery.fancybox.css">
 		<link rel="stylesheet" href="css/styles.min.css">	
