@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+	
+	<link rel="icon" href="img/favicon.png">
+	<meta property="og:image" content="">
+	
+	
+
+</head>
+
+<body>
+
+
+	<header class="header">
+		<div class="header_info">
+			<div class="container">
+				<div class="header_inner">
+					<a href="/" class="logo"><img src="img/logo.svg" alt="alt"></a>
+					<div class="mobile_info">
+						<div class="mobile_info__geo"><img src="img/geo_white.svg" alt="alt"></div>
+						<div class="mobile_info__phone"><a href="tel:+77777777777"><img src="img/phone.svg" alt="alt"></a></div>
+						<div class="mobile_info__burger mobile_info__burger--active">
+							<img class="mobile_info__open" src="img/burger.svg" alt="alt">
+							<img class="mobile_info__close" src="img/close.svg" alt="alt">
+						</div>
+					</div>
+					<nav class="menu header__menu">
+						<ul class="menu__list">
+							<li class="menu-item"><a href="/news" >Услуги</a></li>
+							<li class="menu-item"><a href="/portfolio.html">Портфолио</a></li>
+							<li class="menu-item"><a href="/about.html">О нас</a></li>
+							<li class="menu-item"><a href="/contacts">Контакты</a></li>
+						</ul>
+					</nav>
+					<div class="search">
+						<form class="search_form" id="searchform"  method="get">
+							<input class="search_form__input" name="s" placeholder="Поиск" type="search">
+							<div class="search_form__btn"><img src="img/search.svg" alt="alt"></div>
+						</form>
+					</div>
+				</div>
+				<div class="header_loc">
+					<ul class="header_loc__list">
+						<li class="header_loc__item--close"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="14.142" y="15.5566" width="20" height="2" transform="rotate(-135 14.142 15.5566)" fill="#4D63AA"/><rect x="-0.00012207" y="14.1426" width="20" height="2" transform="rotate(-45 -0.00012207 14.1426)" fill="#4D63AA"/></svg></li>
+						<li class="header_loc__item"><a class="header_loc__link" href="#">Москва</a></li>
+						<li class="header_loc__item"><a class="header_loc__link" href="#">Московская область</a></li>
+						<li class="header_loc__item"><a class="header_loc__link" href="#">Санкт-Петербург</a></li>
+						<li class="header_loc__item"><a class="header_loc__link" href="#">Ленинградская область</a></li>
+						<li class="header_loc__item"><a class="header_loc__link" href="#">Регионы РФ</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="header_contacts">
+			<div class="container">
+				<div class="header_wrapper">
+					<div class="location">
+						<span class="location__link">
+							<img src="img/location.svg" alt="alt"><a class="navbar-link primer-header-region" data-toggle="popover" data-placement="bottom" data-title="Ваш регион Москва?">Санкт-Петербург</a></span>
+						</div>
+						<div class="phone header__phone">
+							<a href="#" class="phone_item">8 812 646 80 80</a>
+							<a href="#" class="phone_item">8 800 333 38 28</a>
+						</div>
+						<div class="email header__email">
+							<a href="mailto:info@6468080.ru" class="">info@6468080.ru</a>
+						</div>
+						<a data-fancybox data-src="#modal_form" class="btn" href="javascript:;">Бесплатная консультация</a>
+					</div>
+				</div>
+			</div>
+
+
+		</header>
+
+	<nav class="menu mobile_menu">
+		<div class="search mobile_menu__search">
+			<form class="search_form" id="searchform2" method="get">
+				<input class="search_form__input" name="s" placeholder="Поиск" type="search">
+				<div class="search_form__btn"><img src="img/search.svg" alt="alt"></div>
+			</form>
+			<div class="search_form__cancel">Отменить</div>
+		</div>
+		<ul class="menu__list">
+			<li class="menu-item"><a href="/news" >Услуги</a></li>
+			<li class="menu-item"><a href="/portfolio.html">Портфолио</a></li>
+			<li class="menu-item"><a href="/media">О нас</a></li>
+			<li class="menu-item"><a href="/contacts.html">Контакты</a></li>
+		</ul>
+		<div class="container">
+			<div class="mobile_location">
+				<ul class="mobile_location__list">
+					<li class="mobile_location__item mobile_location__item--active">Санкт-Петербург</li>
+					<li class="mobile_location__item">Москва</li>
+					<li class="mobile_location__item">Регионы</li>
+				</ul>
+			</div>
+		</div>
+		<div class="mobile_inner">
+			<div class="moble_contact">
+				<div class="phone">
+					<a href="#" class="phone_item">8 812 646 80 80</a>
+				</div>
+				<div class="email">
+					<a href="mailto:info@6468080.ru" class="">info@6468080.ru</a>
+				</div>
+			</div>
+			<div class="mobile_btn">
+				<a data-fancybox="" data-src="#modal_form" class="btn" href="javascript:;">Заявка</a>
+			</div>
+		</div>
+
+	</nav>
+
+		<div class="wrapper">
+			<div class="main no_promo">
+			<h1>Контакты</h1>
+				<div class="container">
+				<div class="contacts_inner">
+					<div class="contacts_wrapper">
+					<div class="contacts_info">
+						<div class="phones contacts__phones">
+							<div class="phone contacts__phone">
+								<div class="phone__text">Бесплатный звонок по России:</div>
+								<a href="tel:+78003333828" class="phone_item phone_item--strong">8 (800) 333 38 28</a>
+							</div>
+							<div class="phone contacts__phone">
+								<div class="phone__text">Санкт-Петербург:</div>
+								<a href="tel:+78126468080" class="phone_item">8 (812) 646 80 80</a>
+							</div>
+							<div class="phone contacts__phone">
+								<div class="phone__text">Москва:</div>
+								<a href="tel:+74996488080" class="phone_item">8 (499) 648 80 80</a>
+							</div>
+						</div>
+						<div class="econtacts">
+							<div class="email contacts__email">
+								<div class="email__text">Электронная почта:</div>
+								<a href="mailto:info@6468080.ru" class="">info@6468080.ru</a>
+							</div>
+							<div class="social_list__title">Социальные сети:</div>
+							<div class="social_list contacts__social_list">
+								<a href="https://vk.com/lscompany" target="_blank">
+									<img src="img/vk.svg" alt="alt">
+								</a>
+								<a href="https://www.facebook.com/letsad.spb" target="_blank">
+									<img src="img/facebook.svg" alt="alt">
+								</a>
+								<a href="https://www.instagram.com/letsad.fasadka/" target="_blank">
+									<img src="img/instagram.svg" alt="alt">
+								</a>
+								<a href="https://www.youtube.com/channel/UCz4Ah8YDJD7NhoE3KMt8XFg" target="_blank">
+									<img src="img/youtube.svg" alt="alt">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="contact_requisite">
+						<a href="#" class="contact_requisite__link">Реквизиты ООО “Летний сад”</a>
+						<a href="#" class="contact_requisite__link">Смотреть все телефоны</a>
+					</div>
+					</div>
+
+					<div class="contacts_form">
+						<form class="form form_modal">
+							<h3 class="h3">Заявка на бесплатную консультацию </h3>
+							<div class="form_modal__wrap">
+								<div class="wrap-inpute">
+									<div class="wrap-inpute__item">
+										<input type="text" name="Имя" placeholder="Имя">
+									</div>
+									<div class="wrap-inpute__item">
+										<input class="input-phone" type="tel" name="Телефон" placeholder="Контактный телефон">
+									</div>
+									<div class="wrap-inpute__item">
+										<input class="input-phone" type="text" name="Комментарий" placeholder="Комментарий">
+									</div>
+								</div>
+								<div class="text-center">
+									<button class="btn btn--yellow">Оптавить</button>
+									<div class="input-cheked">
+										<input id="check3" type="checkbox" name="check" value="check3" checked="checked">
+										<label class="input-cheked__label" for="check3"><span class="input-cheked__text">Нажимая «Отправить» я соглашаюсь<br> с <a href="">политикой обработки персональных данных</a>.</span></label>
+									</div>
+								</div>
+							</div>
+
+						</form>
+					</div>
+
+				</div>
+				</div>
+
+				<div class="offices">
+					<div class="container">
+						<div class="h2 offices__h2">наши офисы</div>
+						<div class="maps">
+							<div class="maps_tabs">
+								<div class="maps_tabs__item maps_tabs__item--active">Санкт-Петербург</div>
+								<div class="maps_tabs__item">Москва</div>
+							</div>
+							<div class="maps_content">
+								<div class="maps_content__item maps_content__item--active">
+									<div class="maps_header">
+										<div class="maps_block">
+											<div class="maps_block__title">Адрес:</div>
+											<div class="maps_block__text">198216, Санкт-Петербург,<br/> пр. Народного Ополчения, 10</div>
+										</div>
+										<div class="maps_block">
+											<div class="maps_block__title">Время работы:</div>
+											<div class="maps_block__text">Пн-Пт: 10:00 — 20:00<br/>
+												Сб: 11:00 — 17:00<br/>
+												Вс: выходной</div>
+										</div>
+										<div class="maps_block">
+											<div class="maps_block__title">Телефон:</div>
+											<div class="maps_block__text">
+												<a href="+78126468080" class="maps_block__phone">8 812 646 80 80</a>
+												<a href="#">Смотреть все телефоны</a>
+											</div>
+										</div>
+									</div>
+									<div class="maps_body">
+										<img src="img/@2x/maps.jpg" alt="map">
+									</div>
+								</div>
+								<div class="maps_content__item">
+									<div class="maps_header">
+										<div class="maps_block">
+											<div class="maps_block__title">Адрес2:</div>
+											<div class="maps_block__text">198216, Санкт-Петербург,<br/> пр. Народного Ополчения, 10</div>
+										</div>
+										<div class="maps_block">
+											<div class="maps_block__title">Время работы2:</div>
+											<div class="maps_block__text">Пн-Пт: 10:00 — 20:00<br/>
+												Сб: 11:00 — 17:00<br/>
+												Вс: выходной</div>
+										</div>
+										<div class="maps_block">
+											<div class="maps_block__title">Телефон2:</div>
+											<div class="maps_block__text">
+												<a href="+78126468080" class="maps_block__phone">8 812 646 80 80</a>
+												<a href="#">Смотреть все телефоны</a>
+											</div>
+										</div>
+									</div>
+									<div class="maps_body">
+										<img src="img/@2x/maps.jpg" alt="map">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="bank_details">
+					<div class="container">
+						<h2 class="h2">Реквизиты ООО “Летний сад”</h2>
+						<div class="bank_details_info">
+							<p>ООО «Летний сад»</p>
+							<p>ИНН: 7804130242</p>
+							<p>КПП: 780501001</p>
+							<p>ОГРН: 1027802487019</p>
+							<p>Р/с: 40702810394720000081 в Северо-Западном филиале ОАО АКБ «РОСБАНК»</p>
+							<p>К/с: 30101810100000000778</p>
+							<p>БИК: 044030778</p>
+						</div>
+						<div class="bank_details_adress">
+							<p>Юридический адрес:</p>
+							<p>198216, Санкт-Петербург, пр. Народного Ополчения, 10, помещение No 1191 Н.</p>
+						</div>
+					</div>
+
+					</div>
+				</div>
+
+			<div class="all_phones">
+				<div class="container">
+					<h2 class="h2">Все телефоны</h2>
+					<div class="all_phones_desc">Вы можете позвонить руководителю отдела напрямую. </div>
+					<div class="all_phones_inner">
+						<div class="all_phones_col">
+							<div class="all_phones_item">
+								<div class="all_phones_item__title">Отдел продаж</div>
+								<div class="all_phones_item__strong">Замена фасадного остекления,
+									окна ПВХ, гидроизоляция</div>
+								<div class="all_phones_item__town">Санкт-Петербург:</div>
+								<div class="all_phones_item__wrap">
+									<div class="phones_person">
+										<div class="phones_person__name">Виктория:</div>
+										<a href="#" class="phones_person__link">+7 (921) 997 49 14</a>
+									</div>
+									<div class="phones_person">
+										<div class="phones_person__name">Екатерина:</div>
+										<a href="#" class="phones_person__link">+7  (921) 911 49 14</a>
+									</div>
+									<div class="phones_person">
+										<div class="phones_person__name">Александра:</div>
+										<a href="#" class="phones_person__link">+7 (921) 998 49 14</a>
+									</div>
+									<div class="phones_person">
+										<div class="phones_person__name">Анна:</div>
+										<a href="#" class="phones_person__link">+7 (921) 952 49 14</a>
+									</div>
+								</div>
+								<div class="all_phones_item__town">Москва:</div>
+								<div class="all_phones_item__wrap">
+									<div class="phones_person">
+										<div class="phones_person__name">Виктория:</div>
+										<a href="#" class="phones_person__link">+7 (921) 997 49 14</a>
+									</div>
+									<div class="phones_person">
+										<div class="phones_person__name">Александра:</div>
+										<a href="#" class="phones_person__link">+7 (926) 281 49 14</a>
+									</div>
+								</div>
+								<div class="all_phones_item__subtitle">Алюминиевые конструкции</div>
+								<div class="all_phones_item__wrap">
+									<div class="phones_person">
+										<div class="phones_person__name">Виктория:</div>
+										<a href="#" class="phones_person__link">+7 (921) 997 49 14</a>
+									</div>
+									<div class="phones_person">
+										<div class="phones_person__name">Александра:</div>
+										<a href="#" class="phones_person__link">+7 (926) 281 49 14</a>
+									</div>
+								</div>
+								<div class="all_phones_item__subtitle">Ворота, роллеты</div>
+								<div class="all_phones_item__wrap">
+									<div class="phones_person">
+										<div class="phones_person__name">Марина:</div>
+										<a href="#" class="phones_person__link">+7 (921) 951 49 14</a>
+									</div>
+								</div>
+								<div class="all_phones_item__subtitle">Конструкции из стекла</div>
+								<div class="all_phones_item__wrap">
+									<div class="phones_person">
+										<div class="phones_person__name">Михаил:</div>
+										<a href="#" class="phones_person__link">+7 (921) 996 49 14</a>
+									</div>
+								</div>
+								<div class="all_phones_item__subtitle">Тонирующие и защитные плёнки</div>
+								<div class="all_phones_item__wrap">
+									<div class="phones_person">
+										<div class="phones_person__name">Денис:</div>
+										<a href="#" class="phones_person__link">+7 (921) 904 49 14</a>
+									</div>
+								</div>
+								<div class="all_phones_item__subtitle">Общестроительные работы</div>
+								<div class="all_phones_item__wrap">
+									<div class="phones_person">
+										<div class="phones_person__name">Павел:</div>
+										<a href="#" class="phones_person__link">+7 (921) 993 49 14</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="all_phones_col">
+							<div class="all_phones_item">
+								<div class="all_phones_item__title">Отдел монтажа</div>
+								<div class="all_phones_item__town">Санкт-Петербург:</div>
+								<div class="all_phones_item__wrap">
+									<div class="phones_person">
+										<div class="phones_person__name">Роман:</div>
+										<a href="#" class="phones_person__link">+7 (921) 917 49 14</a>
+									</div>
+									<div class="phones_person">
+										<div class="phones_person__name">Сергей:</div>
+										<a href="#" class="phones_person__link">+7  (921) 911 49 14</a>
+									</div>
+								</div>
+								<div class="all_phones_item__town">Москва:</div>
+								<div class="all_phones_item__wrap">
+									<div class="phones_person">
+										<div class="phones_person__name">Дмитрий:</div>
+										<a href="#" class="phones_person__link">+7 (926) 030 49 14</a>
+									</div>
+								</div>
+							</div>
+							<div class="all_phones_item">
+								<div class="all_phones_item__title all_phones_item__title--b">Отдел проектирования</div>
+								<div class="all_phones_item__wrap">
+									<div class="phones_person">
+										<div class="phones_person__name">Алексей:</div>
+										<a href="#" class="phones_person__link">+7 (921) 943 49 14</a>
+									</div>
+								</div>
+							</div>
+							<div class="all_phones_item">
+								<div class="all_phones_item__title all_phones_item__title--b">Технический отдел</div>
+								<div class="all_phones_item__wrap">
+									<div class="phones_person">
+										<div class="phones_person__name">Виталий:</div>
+										<a href="#" class="phones_person__link">+7 (921) 946 49 14</a>
+									</div>
+									<div class="phones_person">
+										<div class="phones_person__name">Кирилл:</div>
+										<a href="#" class="phones_person__link">+7 (921) 918 49 14</a>
+									</div>
+									<div class="phones_person">
+										<div class="phones_person__name">Андрей:</div>
+										<a href="#" class="phones_person__link">+7 (921) 940 49 14</a>
+									</div>
+									<div class="phones_person">
+										<div class="phones_person__name">Ольга:</div>
+										<a href="#" class="phones_person__link">+7 (921) 944 49 14</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="all_phones_col">
+							<div class="all_phones_item">
+								<div class="all_phones_item__title">Отдел развития</div>
+								<div class="all_phones_item__town">Санкт-Петербург:</div>
+								<div class="all_phones_item__wrap">
+									<div class="phones_person">
+										<div class="phones_person__name">Евгения:</div>
+										<a href="#" class="phones_person__link">+7 (921) 995 49 14</a>
+									</div>
+									<div class="phones_person">
+										<a href="#" class="phones_person__link">+7 (921) 908 49 14</a>
+									</div>
+								</div>
+								<div class="all_phones_item__town">Москва:</div>
+								<div class="all_phones_item__wrap">
+									<div class="phones_person">
+										<div class="phones_person__name">Евгения:</div>
+										<a href="#" class="phones_person__link">+7 (929) 661 49 14</a>
+									</div>
+								</div>
+							</div>
+							<div class="all_phones_item">
+								<div class="all_phones_item__title all_phones_item__title--b">Отдел маркетинга</div>
+								<div class="all_phones_item__wrap">
+									<div class="phones_person">
+										<div class="phones_person__name">Андрей:</div>
+										<a href="#" class="phones_person__link">+7 (921) 954 49 14</a>
+									</div>
+								</div>
+							</div>
+							<div class="all_phones_item">
+								<div class="all_phones_item__title all_phones_item__title--b">Бухгалтерия</div>
+								<div class="all_phones_item__wrap">
+									<div class="phones_person">
+										<div class="phones_person__name">Анастасия:</div>
+										<a href="#" class="phones_person__link">+7 (900) 635 35 60</a>
+									</div>
+
+								</div>
+							</div>
+							<div class="all_phones_item">
+								<div class="all_phones_item__title all_phones_item__title--b">Офис-менеджер</div>
+								<div class="all_phones_item__wrap">
+									<div class="phones_person">
+										<div class="phones_person__name">Алёна:</div>
+										<a href="#" class="phones_person__link">+7 (921) 950 49 14</a>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			</div> <!-- main -->
+
+
+			<footer class="footer">
+				<div class="container">
+					<div class="footer_inner">
+						<div class="footer_projects">
+							<div class="footer_title">Наши проекты</div>
+							<div class="footer_list">
+								<div class="footer_logo">
+									<a href="#" target="_blank"><img src="img/logo_project_01.png" alt="alt"></a>
+								</div>
+								<div class="footer_logo">
+									<a href="#" target="_blank"><img src="img/logo_project_02.png" alt="alt"></a>
+								</div>
+								<div class="footer_logo">
+									<a href="#" target="_blank"><img src="img/logo_project_03.png" alt="alt"></a>
+								</div>
+								<div class="footer_logo">
+									<a href="#" target="_blank"><img src="img/logo_project_04.png" alt="alt"></a>
+								</div>
+								<div class="footer_logo">
+									<a href="#" target="_blank"><img src="img/logo_project_05.png" alt="alt"></a>
+								</div>
+								<div class="footer_logo">
+									<a href="#" target="_blank"><img src="img/logo_project_06.png" alt="alt"></a>
+								</div>
+								<div class="footer_logo">
+									<a href="#" target="_blank"><img src="img/logo_project_07.png" alt="alt"></a>
+								</div>
+								<div class="footer_logo">
+									<a href="#" target="_blank"><img src="img/logo_project_08.png" alt="alt"></a>
+								</div>
+							</div>
+							<div class="copy copy_mb">Copyright © ООО «Летний Сад», 1999-2020, Все права защищены</div>
+						</div>
+						<div class="foooter_wrap">
+							<div class="foooter_soc">
+								<div class="foooter_social">
+									<div class="footer_title">Контакты</div>
+									<div class="social_list">
+										<a href="https://vk.com/lscompany" target="_blank">
+											<img src="img/vk.svg" alt="alt">
+										</a>
+										<a href="https://www.facebook.com/letsad.spb" target="_blank">
+											<img src="img/facebook.svg" alt="alt">
+										</a>
+										<a href="https://www.instagram.com/letsad.fasadka/" target="_blank">
+											<img src="img/instagram.svg" alt="alt">
+										</a>
+										<a href="https://www.youtube.com/channel/UCz4Ah8YDJD7NhoE3KMt8XFg" target="_blank">
+											<img src="img/youtube.svg" alt="alt">
+										</a>    
+									</div>
+									<a data-fancybox data-src="#modal_form" class="btn foooter_social__btn" href="javascript:;">
+										Cвязаться с нами
+									</a>
+								</div>
+								<div class="footer_metirica">
+									<img src="img/counter.png" alt="alt">
+								</div>
+							</div>
+							<div class="copy">Copyright © ООО «Летний Сад», 1999-2020, Все права защищены</div>
+
+						</div>
+					</div>
+				</div>
+
+			</footer>
+
+		</div>
+
+		<div class="hidden">
+
+			<div id="modal_form">
+				<form class="form form_modal">
+					<h3 class="h3">Получить бесплатную консультацию</h3>
+					<div class="form_modal__wrap">
+						<div class="form_modal__desc">
+							Заполните форму, чтобы заказать<br/> звонок технического специалиста.
+						</div>
+						<div class="form_modal__label">
+							Контактные данные
+						</div>
+						<div class="wrap-inpute">
+							<div class="wrap-inpute__item">
+								<input type="text" name="Имя" placeholder="Имя">
+							</div>
+							<div class="wrap-inpute__item">
+								<input class="input-phone" type="tel" name="Телефон" placeholder="Контактный телефон">
+							</div>
+							<div class="form_modal__label">
+								Комментарий
+							</div>
+							<div class="wrap-inpute__item">
+								<textarea name="reviews" placeholder="У меня следующий вопрос..."></textarea>
+							</div>
+						</div>
+						<div class="text-center">
+							<button class="btn btn--yellow">Заказать звонок</button>
+							<div class="input-cheked">
+								<input id="check3" type="checkbox" name="check" value="check3" checked="checked">
+								<label class="input-cheked__label" for="check3"><span class="input-cheked__text">Нажимая «Отправить» я соглашаюсь<br/> с <a href="">политикой обработки персональных данных</a>.</span></label>
+							</div>
+						</div>
+					</div>
+
+				</form>
+			</div>
+
+			<div id="modal_logos">
+				<div class="modal_logos_wrap">
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_01.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_02.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_03.jpg" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_04.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_05.jpg" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_06.jpg" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_07.jpg" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_08.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_09.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_10.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_11.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_12.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_01.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_02.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_03.jpg" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_04.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_05.jpg" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_06.jpg" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_07.jpg" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_08.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_09.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_10.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_11.png" alt="alt"></a></div>
+					<div class="partner_item"><a href="#"><img src="img/parnter_logo_12.png" alt="alt"></a></div>
+				</div>		
+			</div>
+
+		</div>
+
+		<div id="topNubex"><img src="img/arrow-up.svg" alt="alt"/></div>
+
+		<link rel="stylesheet" href="css/jquery.fancybox.css">
+		<link rel="stylesheet" href="css/styles.min.css">	
+		<script src="js/scripts.min.js"></script>
+
+	</body>
+	</html>

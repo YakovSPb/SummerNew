@@ -24,7 +24,7 @@
 		<div class="header_info">
 			<div class="container">
 				<div class="header_inner">
-					<a href="/" class="logo"><img src="img/logo.png" alt="alt"></a>
+					<a href="/" class="logo"><img src="img/logo.svg" alt="alt"></a>
 					<div class="mobile_info">
 						<div class="mobile_info__geo"><img src="img/geo_white.svg" alt="alt"></div>
 						<div class="mobile_info__phone"><a href="tel:+77777777777"><img src="img/phone.svg" alt="alt"></a></div>
@@ -36,14 +36,14 @@
 					<nav class="menu header__menu">
 						<ul class="menu__list">
 							<li class="menu-item"><a href="/news" >Услуги</a></li>
-							<li class="menu-item"><a href="/media">Портфолио</a></li>
-							<li class="menu-item"><a href="/media">О нас</a></li>
-							<li class="menu-item"><a href="/media">Контакты</a></li>
+							<li class="menu-item"><a href="/portfolio.html">Портфолио</a></li>
+							<li class="menu-item"><a href="/about.html">О нас</a></li>
+							<li class="menu-item"><a href="/contacts.html">Контакты</a></li>
 						</ul>
 					</nav>
 					<div class="search">
 						<form class="search_form" id="searchform"  method="get">
-							<input class="search_form__input" name="s" placeholder="Поиск" type="search">
+							<input class="search_form__input" name="s"  placeholder="Поиск" type="search">
 							<div class="search_form__btn"><img src="img/search.svg" alt="alt"></div>
 						</form>
 					</div>
@@ -83,31 +83,42 @@
 		</header>
 
 		<nav class="menu mobile_menu">
+			<div class="search mobile_menu__search">
+				<form class="search_form" id="searchform2" method="get">
+					<input class="search_form__input" name="s" placeholder="Поиск" type="search">
+					<div class="search_form__btn"><img src="img/search.svg" alt="alt"></div>
+				</form>
+				<div class="search_form__cancel">Отменить</div>
+			</div>
 			<ul class="menu__list">
 				<li class="menu-item"><a href="/news" >Услуги</a></li>
-				<li class="menu-item"><a href="/media">Портфолио</a></li>
+				<li class="menu-item"><a href="/portfolio.html">Портфолио</a></li>
 				<li class="menu-item"><a href="/media">О нас</a></li>
-				<li class="menu-item"><a href="/media">Контакты</a></li>
+				<li class="menu-item"><a href="/contacts.html">Контакты</a></li>
 			</ul>
+			<div class="container">
+				<div class="mobile_location">
+					<ul class="mobile_location__list">
+						<li class="mobile_location__item mobile_location__item--active">Санкт-Петербург</li>
+						<li class="mobile_location__item">Москва</li>
+						<li class="mobile_location__item">Регионы</li>
+					</ul>
+				</div>
+			</div>
 			<div class="mobile_inner">
 				<div class="moble_contact">
 					<div class="phone">
 						<a href="#" class="phone_item">8 812 646 80 80</a>
 					</div>	
 					<div class="email">
-							<a href="mailto:info@6468080.ru" class="">info@6468080.ru</a>
-						</div>		
+						<a href="mailto:info@6468080.ru" class="">info@6468080.ru</a>
+					</div>		
 				</div>
 				<div class="mobile_btn">
-					<a data-fancybox="" data-src="#modal_form" class="btn" href="javascript:;">Бесплатная консультация</a>
+					<a data-fancybox="" data-src="#modal_form" class="btn" href="javascript:;">Заявка</a>
 				</div>
 			</div>
-			<div class="search mobile_menu__search">
-						<form class="search_form" id="searchform2" method="get">
-							<input class="search_form__input" name="s" placeholder="Поиск" type="search">
-							<div class="search_form__btn"><img src="img/search.svg" alt="alt"></div>
-						</form>
-			</div>
+
 		</nav>
 
 		<div class="wrapper">
@@ -127,8 +138,8 @@
 										<div class="promo_seles__header">
 											<div class="promo_seles__title">Акции</div>
 											<div class="slider_nav">
-												<div class="slider_nav__prev"><img src="img/arrow-prev.svg" alt="alt"></div>
-												<div class="slider_nav__next"><img src="img/arrow-prev.svg" alt="alt"></div>
+												<div class="slider_nav__prev"><img src="img/arrow_slide_white.svg" alt="alt"></div>
+												<div class="slider_nav__next"><img src="img/arrow_slide_white.svg" alt="alt"></div>
 											</div>
 										</div>
 										<div class="promo_slider">
@@ -211,157 +222,276 @@
 						<div class="services_list">
 
 							<div class="service_item">
+								<div class="service_item__question_wrap">
+									<div class="service_item__question">?</div>
+								</div>
 								<a href="#" class="service_item__link">
+									<span class="service_item__wrap">
+										<span class="service_item__note">
+											Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса...
+										</span>
+									</span>
 									<span class="service_item__img"><img src="img/services_icon_01.png" alt="alt"></span>
 									<span class="service_item__text">
-										Мансардные окна Зенитные фонари Люки дымоудаления
+										<p>Мансардные окна Зенитные фонари</p>
+										<p>Люки дымоудаления</p>
 									</span>
-									<span class="service_item__question">?</span>
-									<span class="service_item__question">?</span>
 								</a>
 							</div>
 							<div class="service_item">
+								<div class="service_item__question_wrap">
+									<div class="service_item__question">?</div>
+								</div>
 								<a href="#" class="service_item__link">
+									<span class="service_item__wrap">
+										<span class="service_item__note">
+											Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса...
+										</span>
+									</span>
 									<span class="service_item__img"><img src="img/services_icon_02.png" alt="alt"></span>
 									<span class="service_item__text">
 										Остекление фасадов
 									</span>
-									<span class="service_item__question">?</span>
 								</a>
 							</div>
 							<div class="service_item">
+								<div class="service_item__question_wrap">
+									<div class="service_item__question">?</div>
+								</div>
 								<a href="#" class="service_item__link">
+									<span class="service_item__wrap">
+										<span class="service_item__note">
+											Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса...
+										</span>
+									</span>
 									<span class="service_item__img"><img src="img/services_icon_03.png" alt="alt"></span>
 									<span class="service_item__text">
 										Тех. обслуживание коммерческих площадей
 									</span>
-									<span class="service_item__question">?</span>
 								</a>
 							</div>
 							<div class="service_item">
+								<div class="service_item__question_wrap">
+									<div class="service_item__question">?</div>
+								</div>
 								<a href="#" class="service_item__link">
+									<span class="service_item__wrap">
+										<span class="service_item__note">
+											Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса...
+										</span>
+									</span>
 									<span class="service_item__img"><img src="img/services_icon_04.png" alt="alt"></span>
 									<span class="service_item__text">
 										Окна из металлопластика, дерева, алюминия 
 									</span>
-									<span class="service_item__question">?</span>
 								</a>
 							</div>
 							<div class="service_item">
+								<div class="service_item__question_wrap">
+									<div class="service_item__question">?</div>
+								</div>
 								<a href="#" class="service_item__link">
+									<span class="service_item__wrap">
+										<span class="service_item__note">
+											Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса...
+										</span>
+									</span>
 									<span class="service_item__img"><img src="img/services_icon_05.png" alt="alt"></span>
 									<span class="service_item__text">
 										Гидроизоляция
 									</span>
-									<span class="service_item__question">?</span>
 								</a>
 							</div>
 							<div class="service_item">
+								<div class="service_item__question_wrap">
+									<div class="service_item__question">?</div>
+								</div>
 								<a href="#" class="service_item__link">
+									<span class="service_item__wrap">
+										<span class="service_item__note">
+											Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса...
+										</span>
+									</span>
 									<span class="service_item__img"><img src="img/services_icon_06.png" alt="alt"></span>
 									<span class="service_item__text">
 										Входные группы и алюминиевые двери
 									</span>
-									<span class="service_item__question">?</span>
 								</a>
 							</div>
 							<div class="service_item">
+								<div class="service_item__question_wrap">
+									<div class="service_item__question">?</div>
+								</div>
 								<a href="#" class="service_item__link">
+									<span class="service_item__wrap">
+										<span class="service_item__note">
+											Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса...
+										</span>
+									</span>
 									<span class="service_item__img"><img src="img/services_icon_07.png" alt="alt"></span>
 									<span class="service_item__text">
 										Остекление лифтовых шахт
 									</span>
-									<span class="service_item__question">?</span>
 								</a>
 							</div>
 							<div class="service_item">
+								<div class="service_item__question_wrap">
+									<div class="service_item__question">?</div>
+								</div>
 								<a href="#" class="service_item__link">
+									<span class="service_item__wrap">
+										<span class="service_item__note">
+											Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса...
+										</span>
+									</span>
 									<span class="service_item__img"><img src="img/services_icon_08.png" alt="alt"></span>
 									<span class="service_item__text">
 										Конструкции из закалённого стекла
 									</span>
-									<span class="service_item__question">?</span>
 								</a>
 							</div>
 							<div class="service_item">
+								<div class="service_item__question_wrap">
+									<div class="service_item__question">?</div>
+								</div>
 								<a href="#" class="service_item__link">
+									<span class="service_item__wrap">
+										<span class="service_item__note">
+											Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса...
+										</span>
+									</span>
 									<span class="service_item__img"><img src="img/services_icon_09.png" alt="alt"></span>
 									<span class="service_item__text">
 										Перегородки
 									</span>
-									<span class="service_item__question">?</span>
 								</a>
 							</div>
 							<div class="service_item">
+								<div class="service_item__question_wrap">
+									<div class="service_item__question">?</div>
+								</div>
 								<a href="#" class="service_item__link">
+									<span class="service_item__wrap">
+										<span class="service_item__note">
+											Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса...
+										</span>
+									</span>
 									<span class="service_item__img"><img src="img/services_icon_10.png" alt="alt"></span>
 									<span class="service_item__text">
 										Ограждения
 									</span>
-									<span class="service_item__question">?</span>
 								</a>
 							</div>
 							<div class="service_item">
+								<div class="service_item__question_wrap">
+									<div class="service_item__question">?</div>
+								</div>
 								<a href="#" class="service_item__link">
+									<span class="service_item__wrap">
+										<span class="service_item__note">
+											Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса...
+										</span>
+									</span>
 									<span class="service_item__img"><img src="img/services_icon_11.png" alt="alt"></span>
 									<span class="service_item__text">
 										Обслуживание автоматики
 									</span>
-									<span class="service_item__question">?</span>
 								</a>
 							</div>
 							<div class="service_item">
+								<div class="service_item__question_wrap">
+									<div class="service_item__question">?</div>
+								</div>
 								<a href="#" class="service_item__link">
+									<span class="service_item__wrap">
+										<span class="service_item__note">
+											Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса...
+										</span>
+									</span>
 									<span class="service_item__img"><img src="img/services_icon_12.png" alt="alt"></span>
 									<span class="service_item__text">
-										Защитные системы: роллеты, рольставни и ворота
+										Защитные системы: роллеты, рольставни и ворота
 									</span>
-									<span class="service_item__question">?</span>
 								</a>
 							</div>
 							<div class="service_item">
+								<div class="service_item__question_wrap">
+									<div class="service_item__question">?</div>
+								</div>
 								<a href="#" class="service_item__link">
+									<span class="service_item__wrap">
+										<span class="service_item__note">
+											Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса...
+										</span>
+									</span>
 									<span class="service_item__img"><img src="img/services_icon_13.png" alt="alt"></span>
 									<span class="service_item__text">
 										Высотные работы
 									</span>
-									<span class="service_item__question">?</span>
 								</a>
 							</div>
 							<div class="service_item">
+								<div class="service_item__question_wrap">
+									<div class="service_item__question">?</div>
+								</div>
 								<a href="#" class="service_item__link">
+									<span class="service_item__wrap">
+										<span class="service_item__note">
+											Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса...
+										</span>
+									</span>
 									<span class="service_item__img"><img src="img/services_icon_14.png" alt="alt"></span>
 									<span class="service_item__text">
 										Аренда и продажа спецтехники
 									</span>
-									<span class="service_item__question">?</span>
 								</a>
 							</div>
 							<div class="service_item">
+								<div class="service_item__question_wrap">
+									<div class="service_item__question">?</div>
+								</div>
 								<a href="#" class="service_item__link">
+									<span class="service_item__wrap">
+										<span class="service_item__note">
+											Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса...
+										</span>
+									</span>
 									<span class="service_item__img"><img src="img/services_icon_15.png" alt="alt"></span>
 									<span class="service_item__text">
-										Остекление коттеджей и Фахверковых домов
+										Остекление коттеджей и фахверковых домов
 									</span>
-									<span class="service_item__question">?</span>
 								</a>
 							</div>
 							<div class="service_item">
+								<div class="service_item__question_wrap">
+									<div class="service_item__question">?</div>
+								</div>
 								<a href="#" class="service_item__link">
+									<span class="service_item__wrap">
+										<span class="service_item__note">
+											Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса...
+										</span>
+									</span>
 									<span class="service_item__img"><img src="img/services_icon_16.png" alt="alt"></span>
 									<span class="service_item__text">
-										Ремонтно строительные работы
+										Ремонтно-строительные работы
 									</span>
-									<span class="service_item__question">?</span>
 								</a>
 							</div>
 							<div class="service_item">
+								<div class="service_item__question_wrap">
+									<div class="service_item__question">?</div>
+								</div>
 								<a href="#" class="service_item__link">
+									<span class="service_item__wrap">
+										<span class="service_item__note">
+											Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса...
+										</span>
+									</span>
 									<span class="service_item__img"><img src="img/services_icon_17.png" alt="alt"></span>
 									<span class="service_item__text">
 										Зимние сады
 									</span>
-									<span class="service_item__question">?</span>
 								</a>
 							</div>
 
@@ -374,11 +504,11 @@
 						<div class="sect_form_inner">
 							<div class="sect_form_info">
 								<div class="sect_form_info__title">Появились вопросы?</div>
-								<div class="sect_form_info__desc">Вы можете заказть бесплатную консультацию технического специалиста</div>
+								<div class="sect_form_info__desc">Вы можете заказать бесплатную консультацию технического специалиста</div>
 							</div>
 							<div class="sect_form_content">
 								<form class="form sect-form__form">
-									<h3 class="h3">Заполните форму, чтобы заказть звонок</h3>
+									<h3 class="h3">Заполните форму, чтобы заказать звонок</h3>
 									<div class="wrap-inpute">
 										<div class="wrap-inpute__item">
 											<input type="text" name="Имя" placeholder="Имя">
@@ -465,7 +595,7 @@
 									<div class="advans_info__title"><h2 class="h2">Почему Летний сад?</h2></div>
 									<div class="advans_info__desc"><a href="#">Подробнее о нас</a></div>
 								</div>
-								<div class="numbers_block">
+								<div class="numbers_block" data-type="scroll">
 									<div class="num_item">
 										<div class="num_item__number"><span class="num_item_anim" data-max="20">0</span>+</div>
 										<div class="num_item__desc">Лет опыта</div>
@@ -520,21 +650,37 @@
 						<div class="licences_slider">
 							<div class="licences_slide">
 								<a href="img/allowance.jpg" data-fancybox="first_gallery">
+									<span class="licences_slide__note">
+										<span class="licences_slide__text">
+										Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса... Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса...</span>
+									</span>		
 									<img src="img/allowance.jpg" alt="alt">
 								</a>
 							</div>
 							<div class="licences_slide">
 								<a href="img/allowance.jpg" data-fancybox="first_gallery">
+									<span class="licences_slide__note">
+										<span class="licences_slide__text">
+										Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса... Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса...</span>
+									</span>		
 									<img src="img/allowance.jpg" alt="alt">
 								</a>
 							</div>
 							<div class="licences_slide">
 								<a href="img/allowance.jpg" data-fancybox="first_gallery">
+									<span class="licences_slide__note">
+										<span class="licences_slide__text">
+										Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса... Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса...</span>
+									</span>		
 									<img src="img/allowance.jpg" alt="alt">
 								</a>
 							</div>
 							<div class="licences_slide">
 								<a href="img/allowance.jpg" data-fancybox="first_gallery">
+									<span class="licences_slide__note">
+										<span class="licences_slide__text">
+										Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса... Гидроизоляция фасадного остекления, балконов и лоджий, зенитных фонарей и стеклянных кровельных конструкций зданий состоит из целого комплекса...</span>
+									</span>		
 									<img src="img/allowance.jpg" alt="alt">
 								</a>
 							</div>
@@ -545,23 +691,24 @@
 						</div>
 					</div>
 				</div>
-			</div>
 
-			<div class="sect_guarantees sect">
-				<div class="container">
-					<h2 class="h2 sect_h2">Гарантии</h2>	
-					<div class="guarantees_list">
-						<div class="guarantees_item">
-							<img src="img/guarantee_icon_01.svg" alt="alt" class="guarantees_item__img">
-							<div class="guarantees_item__text">Гарантия 5 лет на все услуги</div>
-						</div>
-						<div class="guarantees_item">
-							<img src="img/guarantee_icon_02.svg" alt="alt" class="guarantees_item__img">
-							<div class="guarantees_item__text">Работаем строго по договору</div>
-						</div>
-						<div class="guarantees_item">
-							<img src="img/guarantee_icon_03.svg" alt="alt" class="guarantees_item__img">
-							<div class="guarantees_item__text">Собственный сервисный отдел</div>
+
+				<div class="sect_guarantees sect">
+					<div class="container">
+						<h2 class="h2 sect_h2">Гарантии</h2>	
+						<div class="guarantees_list">
+							<div class="guarantees_item">
+								<img src="img/guarantee_icon_01.svg" alt="alt" class="guarantees_item__img">
+								<div class="guarantees_item__text">Гарантия до 10 лет</div>
+							</div>
+							<div class="guarantees_item">
+								<img src="img/guarantee_icon_02.svg" alt="alt" class="guarantees_item__img">
+								<div class="guarantees_item__text">Работаем строго по договору</div>
+							</div>
+							<div class="guarantees_item">
+								<img src="img/guarantee_icon_03.svg" alt="alt" class="guarantees_item__img">
+								<div class="guarantees_item__text">Собственный сервисный отдел</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -574,50 +721,62 @@
 							<div class="footer_title">Наши проекты</div>
 							<div class="footer_list">
 								<div class="footer_logo">
-									<a href="#" target="_blank"><img src="img/logo_project_01.svg" alt="alt"></a>
+									<a href="#" target="_blank"><img src="img/logo_project_01.png" alt="alt"></a>
 								</div>
 								<div class="footer_logo">
-									<a href="#" target="_blank"><img src="img/logo_project_02.svg" alt="alt"></a>
+									<a href="#" target="_blank"><img src="img/logo_project_02.png" alt="alt"></a>
 								</div>
 								<div class="footer_logo">
-									<a href="#" target="_blank"><img src="img/logo_project_03.svg" alt="alt"></a>
+									<a href="#" target="_blank"><img src="img/logo_project_03.png" alt="alt"></a>
 								</div>
 								<div class="footer_logo">
-									<a href="#" target="_blank"><img src="img/logo_project_04.svg" alt="alt"></a>
+									<a href="#" target="_blank"><img src="img/logo_project_04.png" alt="alt"></a>
 								</div>
 								<div class="footer_logo">
-									<a href="#" target="_blank"><img src="img/logo_project_05.svg" alt="alt"></a>
+									<a href="#" target="_blank"><img src="img/logo_project_05.png" alt="alt"></a>
 								</div>
 								<div class="footer_logo">
-									<a href="#" target="_blank"><img src="img/logo_project_06.svg" alt="alt"></a>
+									<a href="#" target="_blank"><img src="img/logo_project_06.png" alt="alt"></a>
+								</div>
+								<div class="footer_logo">
+									<a href="#" target="_blank"><img src="img/logo_project_07.png" alt="alt"></a>
+								</div>
+								<div class="footer_logo">
+									<a href="#" target="_blank"><img src="img/logo_project_08.png" alt="alt"></a>
 								</div>
 							</div>
+							<div class="copy copy_mb">Copyright © ООО «Летний Сад», 1999-2020, Все права защищены</div>
 						</div>
-						<div class="foooter_social">
-							<div class="footer_title">Контакты</div>
-							<div class="social_list">
-								<a href="https://vk.com/lscompany" target="_blank">
-									<img src="img/vk.svg" alt="alt">
-								</a>
-								<a href="https://www.facebook.com/letsad.spb" target="_blank">
-									<img src="img/facebook.svg" alt="alt">
-								</a>
-								<a href="https://www.instagram.com/letsad.fasadka/" target="_blank">
-									<img src="img/instagram.svg" alt="alt">
-								</a>
-								<a href="https://www.youtube.com/channel/UCz4Ah8YDJD7NhoE3KMt8XFg" target="_blank">
-									<img src="img/youtube.svg" alt="alt">
-								</a>    
+						<div class="foooter_wrap">
+							<div class="foooter_soc">
+								<div class="foooter_social">
+									<div class="footer_title">Контакты</div>
+									<div class="social_list">
+										<a href="https://vk.com/lscompany" target="_blank">
+											<img src="img/vk.svg" alt="alt">
+										</a>
+										<a href="https://www.facebook.com/letsad.spb" target="_blank">
+											<img src="img/facebook.svg" alt="alt">
+										</a>
+										<a href="https://www.instagram.com/letsad.fasadka/" target="_blank">
+											<img src="img/instagram.svg" alt="alt">
+										</a>
+										<a href="https://www.youtube.com/channel/UCz4Ah8YDJD7NhoE3KMt8XFg" target="_blank">
+											<img src="img/youtube.svg" alt="alt">
+										</a>    
+									</div>
+									<a data-fancybox data-src="#modal_form" class="btn foooter_social__btn" href="javascript:;">
+										Cвязаться с нами
+									</a>
+								</div>
+								<div class="footer_metirica">
+									<img src="img/counter.png" alt="alt">
+								</div>
 							</div>
-							<a data-fancybox data-src="#modal_form" class="btn foooter_social__btn" href="javascript:;">
-								Cвязаться с нами
-							</a>
-						</div>
-						<div class="footer_metirica">
-							<img src="img/counter.png" alt="alt">
+							<div class="copy">Copyright © ООО «Летний Сад», 1999-2020, Все права защищены</div>
+
 						</div>
 					</div>
-					<div class="copy">Copyright © ООО «Летний Сад», 1999-2020, Все права защищены</div>
 				</div>
 
 			</footer>
@@ -628,25 +787,37 @@
 
 			<div id="modal_form">
 				<form class="form form_modal">
-					<h3 class="h3">Заполните форму, чтобы заказть звонок</h3>
-					<div class="wrap-inpute">
-						<div class="wrap-inpute__item">
-							<input type="text" name="Имя" placeholder="Имя">
+					<h3 class="h3">Получить бесплатную консультацию</h3>
+					<div class="form_modal__wrap">
+						<div class="form_modal__desc">
+							Заполните форму, чтобы заказать звонок<br/> технического специалиста.
 						</div>
-						<div class="wrap-inpute__item">
-							<input class="input-phone" type="tel" name="Телефон" placeholder="Контактный телефон">
+						<div class="form_modal__label">
+							Контактные данные
 						</div>
-						<div class="wrap-inpute__item">
-							<input class="input-phone" type="text" name="Телефон" placeholder="Комментарий">
+						<div class="wrap-inpute">
+							<div class="wrap-inpute__item">
+								<input type="text" name="Имя" placeholder="Имя">
+							</div>
+							<div class="wrap-inpute__item">
+								<input class="input-phone" type="tel" name="Телефон" placeholder="Контактный телефон">
+							</div>
+							<div class="form_modal__label">
+								Комментарий
+							</div>
+							<div class="wrap-inpute__item">
+								<textarea name="reviews" placeholder="У меня следующий вопрос..."></textarea>
+							</div>
+						</div>
+						<div class="text-center">
+							<button class="btn btn--yellow">Заказать звонок</button>
+							<div class="input-cheked">
+								<input id="check3" type="checkbox" name="check" value="check3" checked="checked">
+								<label class="input-cheked__label" for="check3"><span class="input-cheked__text">Нажимая «Отправить» я соглашаюсь<br/> с <a href="">политикой обработки персональных данных</a>.</span></label>
+							</div>
 						</div>
 					</div>
-					<div class="text-center">
-						<div class="input-cheked">
-							<input id="check2" type="checkbox" name="check" value="check2" checked="checked">
-							<label class="input-cheked__label" for="check2"><span class="input-cheked__text">Я даю согласие на обработку персональных данных и подтверждаю, что ознакомлен с <a href="">Политикой обработки персональных данных</a>.</span></label>
-						</div>		
-						<button class="btn btn--yellow">Отправить</button>
-					</div>
+
 				</form>			
 			</div>
 

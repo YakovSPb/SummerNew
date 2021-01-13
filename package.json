@@ -27,5 +27,8 @@
 		"jquery.maskedinput": "^1.4.1",
 		"normalize.css": "^8.0.1",
 		"slick-carousel": "^1.8.1"
+	},
+	"dependencies": {
+		"node-sass": "^5.0.0"
 	}
 }

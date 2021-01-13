@@ -48,6 +48,7 @@ gulp.task('scripts', function() {
 		'node_modules/slick-carousel/slick/slick.min.js',
 		'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js',
 		'node_modules/jquery.maskedinput/src/jquery.maskedinput.js',
+		'app/js/ion.rangeSlider.min.js',
 		// 'app/js/_libs.js', // JS libraries (all in one)
 		'app/js/_custom.js', // Custom scripts. Always at the end
 		])

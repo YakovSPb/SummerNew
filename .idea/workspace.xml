@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="53f24167-1ad8-4389-be8c-69ee2242825b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/jquery.fancybox.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/jquery.fancybox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/styles.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/RobotoSlab-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/app/fonts/RobotoSlab-Bold.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/RobotoSlab-Light.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/app/fonts/RobotoSlab-Light.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/_src/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/fonts/_src/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/arrow-next.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/arrow-next.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/arrow-prev.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/arrow-prev.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/arrow-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/arrow-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/arrow_long.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/arrow_long.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/burger.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/burger.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/close.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/close.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/facebook.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/geo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/geo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/geo_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/geo_white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/guarantee_icon_01.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/guarantee_icon_01.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/guarantee_icon_02.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/guarantee_icon_02.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/guarantee_icon_03.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/guarantee_icon_03.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/instagram.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/location.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/location.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/logo_project_01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/logo_project_02.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/logo_project_03.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/logo_project_04.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/logo_project_05.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/logo_project_06.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/phone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/phone.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/question_bg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/question_bg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/question_bg_mobile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/question_bg_mobile.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/social_icon_facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/social_icon_facebook.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/social_icon_instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/social_icon_instagram.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/social_icon_vk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/social_icon_vk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/social_icon_youtube.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/social_icon_youtube.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/vk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/vk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/youtube.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/youtube.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/_custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/_custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/_libs.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/_libs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/_fonts.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_fonts.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/_libs.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_libs.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/YakovSPb/SummerNew" />
+      </set>
+    </option>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectId" id="1lyhwq2olHtA40iTSzwk3XJQaqD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="proofread" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\777\Desktop\Work\SummerNew\app" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53f24167-1ad8-4389-be8c-69ee2242825b" name="Default Changelist" comment="" />
+      <created>1608575480461</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608575480461</updated>
+      <workItem from="1608575482256" duration="844000" />
+      <workItem from="1608576384339" duration="783000" />
+      <workItem from="1608577216056" duration="9467000" />
+      <workItem from="1608626380176" duration="3048000" />
+      <workItem from="1608637877229" duration="11064000" />
+      <workItem from="1608657052433" duration="756000" />
+      <workItem from="1608718789487" duration="5276000" />
+      <workItem from="1608728616588" duration="1660000" />
+      <workItem from="1608810113168" duration="5707000" />
+      <workItem from="1608896680307" duration="6206000" />
+      <workItem from="1609162986062" duration="6981000" />
+      <workItem from="1609261879475" duration="2237000" />
+      <workItem from="1609319419312" duration="1427000" />
+      <workItem from="1609327993110" duration="695000" />
+      <workItem from="1609352632303" duration="3390000" />
+      <workItem from="1609697534260" duration="595000" />
+      <workItem from="1610525421616" duration="3058000" />
+      <workItem from="1610533923963" duration="13706000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
